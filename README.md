@@ -16,3 +16,4 @@ Team Deckard is creating a website under the instruction of Dr. Anca Doloc-Mihu 
 **Team Roles**
 - - -
 1. **Samuel Groom** - Team Manager/Client Liaison and UI/UX Design :metal:
+2. **Rodney Brown** - Lead Programmer and Testing Lead :trollface:
