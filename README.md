@@ -5,7 +5,7 @@ Team Deckard is creating a website under the instruction of Dr. Anca Doloc-Mihu 
 
 **Repo Location**
 - - -
-[Deckard Repo] (https://github.com/GGC-SD/Deckard)
+[Deckard Repo](https://github.com/GGC-SD/Deckard)
 
 
 **Other Communication Tools**
