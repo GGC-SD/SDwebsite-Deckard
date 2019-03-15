@@ -18,3 +18,4 @@ Team Deckard is creating a website under the instruction of Dr. Anca Doloc-Mihu 
 1. **Samuel Groom** - Team Manager/Client Liaison and UI/UX Design :metal:
 2. **Rodney Brown** - Lead Programmer and Testing Lead :trollface:
 3. **Philip Wall** - Data Modeler and UI/UX Design :coffee:
+4. **Jordan Vincent** - Documenting Lead / Lead Programmer :dragon:
