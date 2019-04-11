@@ -1,0 +1,19 @@
+{ "Team":
+  [
+    { "Name":"Deckard",
+      "Memebers":[ {"First_Name":"Jordan", "Last_Name":"Vincent"},
+                  {"First_Name":"Philip", "Last_Name":"Wall"},
+                  {"First_Name":"Rodney", "Last_Name":"Brown"},
+                  {"First_Name":"Sam", "Last_Name":"Groom"} ]
+      "Project":"SDev Project Website",
+      "Link":"https://github.com/GGC-SD/Deckard",
+	  "Desc":"A website to catalog GGC software dev projects" }
+    ,
+    { "Name":"Another Team",
+      "Memebers":[ {"First_Name":"John", "Last_Name":"Doe"},
+                  {"First_Name":"Jane", "Last_Name":"Smith"} ]
+      "Project":"Project name goes here",
+      "Link":"https://github.com/GGC-SD/*",
+	  "Desc":"Description goes here" }
+  ]
+}
