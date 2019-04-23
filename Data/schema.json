@@ -17,5 +17,6 @@
                        "Last_Name": { "type":"string" }}}},
               "Project": { "type":"string" },
               "Link": { "type":"string" },
-              "Desc": { "type":"string" }}}}
+              "Desc": { "type":"string" },
+			  "Pic": { "type":"image/png" }}}}
 }}
