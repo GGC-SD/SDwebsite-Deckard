@@ -2,21 +2,22 @@
 <html>
 
 <head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
 	<title>GGC Software Dev 1 Teams</title>
 	<link href = "HomePage.css" rel = "stylesheet">
 	 <script>
          $(document).ready(function() {
-           
-            $("#driver").click(function(event){
-               $.getJSON('20193.json', function(Team) {
-                  $('#stage').html('<p> Name: ' + Team.name + '</p>');
-                  $('#stage').append('<p>Project : ' + Team.Project+ '</p>');
-                  $('#stage').append('<p> Link: ' + Team.Link+ '</p>');
-               });
-            });
-               
-         });
+           $("button").click(function(){
+            $.getJSON('20193.json',{},function(data) {
+			$.each(data.items, function(key,val) {
+			$("div").append(val + " ");
+			alert(val.fname);
+			alert(val.lname);
+			});
+		})
+		});
+      });
       </script>
 </head>
 <body>
@@ -45,6 +46,6 @@
          STAGE
       </div>
        
-      <input type = "button" id = "driver" value = "Load Data" />
+      <button> Get Data </button>
 </body>
 </html>
