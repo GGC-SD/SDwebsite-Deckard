@@ -1,0 +1,34 @@
+{
+	"team":[
+    { "name":"Blank_Name",
+      "members":[ "1",
+                  "2",
+                  "3",
+                  "4" ],
+      "project":"Project_Name",
+      "link":"GitHub link",
+	  "desc":"A website", 
+	  "pic":"PNG Directory goes here" }
+    ,
+    { "name":"Blank_Name",
+      "members":[ "1",
+                  "2",
+                  "3",
+                  "4" ],
+      "project":"Project_Name",
+      "link":"GitHub link",
+	  "desc":"A website", 
+	  "pic":"PNG Directory goes here" },
+	  
+	  
+	  { "name":"Blank_Name",
+      "members":[ "1",
+                  "2",
+                  "3",
+                  "4" ],
+      "project":"Project_Name",
+      "link":"GitHub link",
+	  "desc":"A website", 
+	  "pic":"PNG Directory goes here" }
+  ]
+  }
