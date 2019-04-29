@@ -1,0 +1,54 @@
+<!-- To do :
+1. Script to pull in data from JSON file
+2. Drop down list that pulls in list of semesters from JSON
+3. Submit changes removes the previos data from the JSON file and replaces 
+it with the new info.  It will also take the admin back to the navigation page 
+show an alert that the changes were submitted correctly.
+-->
+
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<meta charset = "utf-8">
+<title>Team Editor</title>
+<link href = "HomePage.css" rel = "stylesheet">
+
+</head>
+<body>
+<div id = "wrapperAdmin">
+
+<nav>
+    <b><a href = "HomePage.html">Home</a> &nbsp;&nbsp; <a href = "Teams.html">Teams</a> &nbsp;&nbsp;</b>
+</nav>
+
+
+<h1>Team Editor</h1>
+<h3>Make any necessary changes to the information below.  Click "Submit" when finished.</h3>
+
+
+<form name = "editTeam" action = "adminHomepage.html">
+
+
+<label>Team Name: </label><input type = "text" name = "teamName"> <br> <br>
+<label>Team Members: </label><input type = "text" name = "teamMembers" value = ""> <br> <br>
+<label>Project Name: </label><input type = "text" name = porjectName" value =""><br><br>
+<label>Description: </label><input type = "text" name = "description" value = ""><br> <br>
+ 
+ <!-- this label will need to be populated by JSON data -->
+<label>Semester: </label> <select name = "semester">
+<option value = "Spring 2019">Spring 2019</option>
+<option value = "Summer 2019">Summer 2019</option>
+<option value = "Fall 2019">Fall 2019</option> 
+<option value = "createSemester">Add Semester..</option>
+</select> <br> <br>
+
+<label>GitHub Link: </label><input type = "text" name = "github" value = ""<br><br><br>
+
+
+<!-- Upon submitting, a message will pop up saying that it was a success or failure -->
+
+<input type = "submit" value = "Submit Changes">
+
+</div>
+</body>
+</html>
