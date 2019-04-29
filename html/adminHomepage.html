@@ -1,0 +1,41 @@
+<!-- To Do List
+1. When you select a semester, the teams from that semester appear on the page 
+as a listView
+2. Delete button removes pops up a screen asking if the admin is sure they want to
+delete the team.  Yes deletes the team, cancel closes the alert message.
+3. Edit button loads the editTeam page with the team information from the selected team
+---->
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<meta charset = "utf-8">
+<title>Admin Welcome Page</title>
+<link href = "HomePage.css" rel = "stylesheet">
+
+</head>
+
+<body>
+<div id = "wrapperAdmin">
+
+<nav>
+    <b><a href = "HomePage.html">Home</a> &nbsp;&nbsp; <a href = "Teams.html">Teams</a> &nbsp;&nbsp;</b>
+</nav>
+
+<h1>Navigation</h1>
+<p>Welcome to the Software Development Navigation Page.  <br>What would you like to do?<p>
+<br><br>
+<h2>Software Development Teams</h2>
+
+<!-- View Teams Button-->
+<form action = "viewTeamPage.html">
+<input type = "Submit" value = "View Teams">
+</form> <br>
+
+<!-- Create Teams Button -->
+<form action = "createTeamPage.html">
+<input type = "Submit" value = "Create Team">
+</form>
+
+</div>
+</body>
+</html>
