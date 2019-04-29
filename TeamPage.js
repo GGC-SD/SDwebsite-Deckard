@@ -12,7 +12,7 @@
 			txt += "<tr><td>" + "Team: " + val.name + "</td></tr>" + 
 				"<tr><td>" + "Members: " + val.members[0] + ", " + val.members[1]
 				+  ", " + val.members[2] + ", " + val.members[3] + "</td><tr>" +
-				"<tr><td>" + "Project: " + val.project + "</td></tr>" + 
+				"<tr><td>" + "Project: " + val.project + "</td></tr>" + "<tr><td>" + "Link: " + val.link  + "</td></tr>" +
 				"<tr><td>" + "Description: " + val.desc + "</td></tr>" + "<br>";
 				txt += "</table>"
 				
