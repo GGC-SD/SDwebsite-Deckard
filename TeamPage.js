@@ -2,7 +2,14 @@
 		
 		
            $("option").click(function(){
-			   if($(this).val() == '2019')
+			   if($(this).val() == 'Nothing')
+			   {
+				   var txt = "";
+				   txt += "<table border = '1' backgroundColor: 'white'>"
+				   txt += "</table>"
+				   document.getElementById("demo").innerHTML = txt;
+			   }
+			  else if($(this).val() == '2019')
 			   {
 				   var txt = "";
             $.getJSON('data/20193.json',{},function(data) {

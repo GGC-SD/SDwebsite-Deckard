@@ -1,0 +1,27 @@
+nav {text-align: right;}
+
+h1 {text-align: center;
+	padding: 50px;
+	color: #c4dfe6;
+background-color: #00704a;}
+
+#wrapper {width: 960px;
+		  margin-left: auto;
+		  margin-right: auto;
+background-color: #a5acb0;}
+
+table {margin: auto;
+	   width: 600px;
+	   border: 3px solid #000066;
+border-spacing: 1px;}
+
+th {padding: 0.5em;
+	color: #c4dfe6;
+	text-align:left;
+border: 1px solid #000066;}
+div{
+	text-align:center;
+}
+select{
+	text-align:center;
+}
