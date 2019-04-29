@@ -12,6 +12,12 @@ Team Deckard is creating a website under the instruction of Dr. Anca Doloc-Mihu 
 - - -
 [Discord](https://discordapp.com)
 
+**Softwares Used and Installation of Project**
+- - -
+1. Software used: NotePad++ as editor, and JQuery for JavaScript
+2. JQuery is not necessary to install, because you can use a JavaScript src link to the API to then edit pages with.
+3. Because Google Chrome does not allow viewing of our project, you can either view the project on a local server or load up the file in the FireFox browser.
+
 
 **Team Roles**
 - - -
