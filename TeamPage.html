@@ -4,48 +4,31 @@
 <head>
 <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+
 	<title>GGC Software Dev 1 Teams</title>
 	<link href = "HomePage.css" rel = "stylesheet">
-	 <script>
-         $(document).ready(function() {
-           $("button").click(function(){
-            $.getJSON('20193.json',{},function(data) {
-			$.each(data.items, function(key,val) {
-			$("div").append(val + " ");
-			alert(val.fname);
-			alert(val.lname);
-			});
-		})
-		});
-      });
-      </script>
+	
 </head>
 <body>
+<script type = "text/javascript" src ="TeamPage.js" ></script>
 <div id = "wrapper">
 <nav>
 	<b><a href = "">Home</a> &nbsp;&nbsp; <a href = "">Teams</a> &nbsp;&nbsp; <a href = "">Admin Login</a></b>
 </nav>
 <h1>Software Development 1 Teams</h1>
-<table>
-	<tr>
-		<th>Team members:</th>
-		<th>Project:</th>
-	</tr>
-	<tr>
-		<th>Team Photo:</th>
-		<th>Team Information:</th>
-	</tr>
-</table>
-</div>
 
 
-   
-      <p>Click on the button to load result.html file:</p>
        
-      <div id = "stage" style = "background-color:#cc0;">
-         STAGE
+      <div style = "background-color:Forest-Green;">
+         Teams
       </div>
-       
-      <button> Get Data </button>
+	  
+	  <button onclick = "clearBox()"> Clear Data </button>
+      <select id = "data" >
+	  <option value = ""> Choose an option: </option>
+	  <option value = "2019"> 2019 </option>
+	  <option value = "2020"> 2020 </option>
+	  </select>
+	         <div id = "demo" ></div>
 </body>
 </html>
